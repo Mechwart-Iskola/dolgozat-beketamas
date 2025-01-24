@@ -66,9 +66,9 @@ const ProductCard = () => {
                 <div className='product-info'>
                     <div className='product-details'>
                         <img className='product-image' src={product?.image} />
-                        <p>Name: {product?.name}</p>
-                        <p>Category: {product?.category}</p>
-                        <p>Price: {product?.price}</p>
+                        <p>Name: <label htmlFor="">{product?.name}</label> </p>
+                        <p>Category: <label>{product?.category}</label> </p>
+                        <p>Price: <label>{product?.price}</label> </p>
                     </div>
                 </div>
             }
